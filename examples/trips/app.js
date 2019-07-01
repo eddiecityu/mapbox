@@ -21,7 +21,7 @@ const DATA_URL = {
 
 const ambientLight = new AmbientLight({
   color: [255, 255, 255],
-  intensity: 1.0
+  intensity: 2.0
 });
 
 const pointLight = new PointLight({
@@ -41,9 +41,9 @@ const material = new PhongMaterial({
 
 const INITIAL_VIEW_STATE = {
   longitude: -74,
-  latitude: 40.72,
-  zoom: 13,
-  pitch: 45,
+  latitude: 40.71,
+  zoom: 15,
+  pitch: 60,
   bearing: 0
 };
 
